@@ -42,7 +42,7 @@
         
         .cabecera-nav ul {
             list-style-type: none;
-            background-color: #083058;
+            background-color: #580d08;
             padding: 15px;
             border-radius: 32px;
             /* display: block; */
@@ -218,6 +218,7 @@
         
         .tituloClientes {
             color: #8b9dc3;
+            background-color: #053c72;
         }
         
         .tituloAsociate {
