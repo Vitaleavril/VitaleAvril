@@ -31,7 +31,7 @@
         }
         
         .cabecera {
-            background-color: #053c72;
+            background-color: #011f4b;
             color: #f7f7f7;
             padding: 10px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -42,25 +42,25 @@
         
         .cabecera-nav ul {
             list-style-type: none;
-            background-color: #580d08;
+            background-color: #011f4b;
             padding: 15px;
             border-radius: 32px;
             /* display: block; */
         }
         
         .cabecera-nav ul li a {
-            color: rgb(255, 255, 255);
+            color: #f0f7da;
             text-decoration: none;
             margin: 16px;
             padding: 8px 16px;
             text-transform: capitalize;
-            background-color: #8b9dc3;
+            background-color: #011f4b;
             border-radius: 32px;
         }
-        
-        .cabecera-nav ul li a :hover {
-            color: #083058;
+        /* .cabecera-nav ul li a :hover {
+            color: #dcdaf7;
         }
+         */
         
         li {
             display: inline;
@@ -70,15 +70,14 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 20px;
         }
-        
-        .fotito {
+        /* .fotito {
             background-image: url(../imagenes/cadete.webp);
             background-repeat: no-repeat;
             background-size: contain;
             height: 20rem;
             justify-items: center;
             margin: 8px;
-        }
+        } */
         
         .fotitoCadete {
             height: 20rem;
@@ -90,7 +89,7 @@
         }
         
         .titulo {
-            color: #7e6c62;
+            color: #0a0a09;
         }
         
         .imagen {
@@ -101,21 +100,21 @@
             background-color: #efeff2;
             border: #e8702a;
         }
-        
-        form {
+        /* form {
             background-color: #e5e6eb;
             border: 4px solid #0c457d;
             border-radius: 100px;
             padding: 8px;
             width: auto;
-        }
+        } */
         /* .nombreYapellido {
         display: block;
     } */
         
         .footer {
-            background-color: #083058;
+            background-color: #011f4b;
             color: #f7f7f7;
+            /* margin: 8px; */
             padding: 5px 0px;
             text-align: center;
             grid-area: footer;
@@ -125,33 +124,30 @@
             grid-area: main;
             margin: 0px 8px;
         }
-        
-        .horizontal {
+        /* .horizontal {
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: center;
-            /* display: grid;
+            justify-content: center; */
+        /* display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 30% 70%;
         justify-content: right; */
-        }
-        
-        .seccion1 {
+        /* } */
+        /* .seccion1 {
             margin: 8px 8px;
-        }
-        
-        .QSspan {
+        } */
+        /* .QSspan {
             background-color: #f7f7f7;
             border: 4px solid #0c457d;
             border-radius: 75px;
             /* padding: 8px; */
-            display: block;
-            /* margin: 8px; */
-            padding: 2px;
+        /* display: block; */
+        /* margin: 8px; */
+        /* padding: 2px;
             margin: 8px;
             text-align: center;
-        }
+        } */
         
         .divClientesGrid {
             display: grid;
@@ -197,24 +193,23 @@
         }
         
         .cabecera .logo {
-            color: rgb(255, 250, 250);
+            color: white;
             text-decoration: none;
         }
         
         .tituloMediaQueries {
             background-color: #053c72;
         }
-        
-        .QStituloIndex:hover {
+        /* .QStituloIndex {
             color: #8b9dc3;
             height: 100px;
             width: 100px;
             padding: 20px;
-            color: rgb(164, 164, 184);
-            /* display: flex;
+            color: rgb(164, 164, 184); */
+        /* display: flex;
         justify-content: left;
         align-content: space-between; */
-        }
+        /* } */
         
         .tituloClientes {
             color: #8b9dc3;
