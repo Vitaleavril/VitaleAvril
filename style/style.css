@@ -286,5 +286,17 @@
                 display: flex;
                 justify-content: center;
             }
+            .gradiente {
+                display: flex;
+                justify-content: center;
+                margin: 8px;
+                padding: 16px;
+                color: #e5e6eb;
+                height: auto;
+                width: auto;
+                background-color: #053c72;
+                border-radius: 70px;
+                background-image: linear-gradient(to bottom, #053c72, rgb(36, 36, 95));
+            }
             /* .seccion1 {} */
         }
