@@ -1,0 +1,29 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0%;
+}
+
+.tituloMediaQueries {
+  background-color: #053c72;
+}
+
+.tituloClientes {
+  color: #8b9dc3;
+  background-color: #053c72;
+}
+
+.tituloAsociate {
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+  color: #e5e6eb;
+  height: auto;
+  width: auto;
+  background-color: #053c72;
+  border-radius: 70px;
+  background-image: linear-gradient(to bottom, #053c72, rgb(36, 36, 95));
+}
+
+.titulo {
+  color: #0a0a09;
+}/*# sourceMappingURL=titulos.css.map */

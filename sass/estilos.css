@@ -1,0 +1,190 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0%;
+}
+
+.botonForm2, .botonForm1 {
+  padding: 8px;
+  border: 16px;
+  font-size: 8px;
+}
+
+.fotosEquipo {
+  margin: 32px;
+  padding: 8px;
+  border-radius: 32px;
+  width: 200px;
+  height: 200px;
+}
+
+.fotosEquipo {
+  border: 1px solid;
+  border-radius: 32px;
+  background-color: grey;
+}
+
+.footer {
+  background-color: #011f4b;
+  color: #f7f7f7;
+  /* margin: 8px; */
+  padding: 5px 0px;
+  text-align: center;
+  grid-area: footer;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-weight: 700;
+}
+
+.main {
+  grid-area: main;
+  margin: 0px 8px;
+}
+.main .sectionClientesFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .sectionClientesFlex .divClientesGrid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.main .sectionClientesFlex img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 16px 16px;
+}
+.main .fotos {
+  border-radius: 2rem;
+}
+.main .imagen {
+  margin-right: 100px;
+}
+
+.mainservicios {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.mainservicios .gradiente {
+  border: solid 5px rgb(243, 243, 243);
+  border-radius: 70px;
+}
+
+.mainEquipo {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .bodyGrid {
+    flex-direction: column;
+  }
+  .tituloMediaQueries {
+    display: block;
+  }
+  .cabecera-nav {
+    display: none;
+  }
+  .QSspan {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .divClientesGrid {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0px 32px; */
+    justify-content: center;
+  }
+  .QStituloIndex {
+    display: flex;
+    justify-content: center;
+  }
+  .main {
+    margin: 8px 16px;
+    justify-content: center;
+  }
+  .tituloClientes {
+    display: flex;
+    justify-content: center;
+  }
+  .gradiente {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    padding: 16px;
+    color: #e5e6eb;
+    height: auto;
+    width: auto;
+    background-color: #053c72;
+    border-radius: 70px;
+    background-image: linear-gradient(to bottom, #053c72, rgb(36, 36, 95));
+  }
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0%;
+}
+
+.tituloMediaQueries {
+  background-color: #053c72;
+}
+
+.tituloClientes {
+  color: #8b9dc3;
+  background-color: #053c72;
+}
+
+.tituloAsociate {
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+  color: #e5e6eb;
+  height: auto;
+  width: auto;
+  background-color: #053c72;
+  border-radius: 70px;
+  background-image: linear-gradient(to bottom, #053c72, rgb(36, 36, 95));
+}
+
+.titulo {
+  color: #0a0a09;
+}
+
+.botonForm2, .botonForm1 {
+  padding: 8px;
+  border: 16px;
+  font-size: 8px;
+}
+
+.fotosEquipo {
+  margin: 32px;
+  padding: 8px;
+  border-radius: 32px;
+  width: 200px;
+  height: 200px;
+}
+
+.botonForm2, .botonForm1 {
+  padding: 8px;
+  border: 16px;
+  font-size: 8px;
+}
+
+.fotosEquipo {
+  margin: 32px;
+  padding: 8px;
+  border-radius: 32px;
+  width: 200px;
+  height: 200px;
+}
+
+.botonForm1 {
+  background-color: green;
+  color: white;
+}
+
+.botonForm2 {
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,13 @@
+@import "./map.scss";
+.footer {
+    background-color: #011f4b;
+    color: #f7f7f7;
+    /* margin: 8px; */
+    padding: 5px 0px;
+    text-align: center;
+    grid-area: footer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: map-get($pesoFuente, negrita);
+}

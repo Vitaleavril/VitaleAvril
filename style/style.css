@@ -1,225 +1,249 @@
-        * {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0%;
-        }
-        /* la propiedad flex hace que todo el body sea flexible */
-        /* la propiedad flex-direction nos indica en que direccion vamos a distribuir los componentes de la pagina:
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0%;
+    }
+    /* la propiedad flex hace que todo el body sea flexible */
+    /* la propiedad flex-direction nos indica en que direccion vamos a distribuir los componentes de la pagina:
     row         significa horizontalmente
     column      singifica verticalmente
 *8xc/
 8
 /*  */
-        
-        .bodyFlex {
-            background-color: #efeff2;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            min-height: 100vh;
-        }
-        
-        .bodyGrid {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 70px auto 32px;
-            min-height: 100vh;
-            grid-template-areas: "header" "main" "footer";
-        }
-        
-        ul {
-            list-style-type: none;
-        }
-        
-        .cabecera {
-            background-color: #011f4b;
-            color: #f7f7f7;
-            padding: 10px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            justify-content: space-between;
-            grid-area: header;
-        }
-        
-        .cabecera-nav ul {
-            list-style-type: none;
-            background-color: #011f4b;
-            padding: 15px;
-            border-radius: 32px;
-            /* display: block; */
-        }
-        
-        .cabecera-nav ul li a {
-            color: #f0f7da;
-            text-decoration: none;
-            margin: 16px;
-            padding: 8px 16px;
-            text-transform: capitalize;
-            background-color: #011f4b;
-            border-radius: 32px;
-        }
-        /* .cabecera-nav ul li a :hover {
-            color: #dcdaf7;
-        }
-         */
-        
-        li {
-            display: inline;
-        }
-        
-        .mainservicios {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 20px;
-        }
-        /* .fotito {
-            background-image: url(../imagenes/cadete.webp);
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 20rem;
-            justify-items: center;
-            margin: 8px;
-        } */
-        
-        .fotitoCadete {
-            height: 20rem;
-            margin: 8px;
-        }
-        
-        .fotos img {
-            border-radius: 2rem;
-        }
-        
-        .titulo {
-            color: #0a0a09;
-        }
-        
-        .imagen {
-            margin-right: 100px;
-        }
-        
-        .ofertas {
-            background-color: #efeff2;
-            border: #e8702a;
-        }
-        /* form {
+    
+    .bodyGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px auto 32px;
+        min-height: 100vh;
+        grid-template-areas: "header" "main" "footer";
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .cabecera {
+        background-color: #011f4b;
+        color: #f7f7f7;
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: space-between;
+        grid-area: header;
+    }
+    
+    .cabecera-nav {
+        list-style-type: none;
+        padding: 15px;
+    }
+    
+    .cabecera a {
+        color: #f0f7da;
+        text-decoration: none;
+        margin: 16px;
+        padding: 8px 16px;
+        text-transform: capitalize;
+        /* background-color: #011f4b;
+        border-radius: 32px; */
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    .mainservicios {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+    
+    .fotitoCadete {
+        height: 20rem;
+        margin: 8px;
+    }
+    
+    .fotos img {
+        border-radius: 2rem;
+    }
+    
+    .titulo {
+        color: #0a0a09;
+    }
+    
+    .imagen {
+        margin-right: 100px;
+    }
+    
+    .ofertas {
+        background-color: #efeff2;
+        border: #e8702a;
+    }
+    /* form {
             background-color: #e5e6eb;
             border: 4px solid #0c457d;
             border-radius: 100px;
             padding: 8px;
             width: auto;
         } */
-        /* .nombreYapellido {
+    /* .nombreYapellido {
         display: block;
     } */
-        
-        .footer {
-            background-color: #011f4b;
-            color: #f7f7f7;
-            /* margin: 8px; */
-            padding: 5px 0px;
-            text-align: center;
-            grid-area: footer;
-        }
-        
-        .main {
-            grid-area: main;
-            margin: 0px 8px;
-        }
-        /* .horizontal {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center; */
-        /* display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 30% 70%;
-        justify-content: right; */
-        /* } */
-        /* .seccion1 {
-            margin: 8px 8px;
-        } */
-        /* .QSspan {
-            background-color: #f7f7f7;
-            border: 4px solid #0c457d;
-            border-radius: 75px;
-            /* padding: 8px; */
-        /* display: block; */
+    
+    .footer {
+        background-color: #011f4b;
+        color: #f7f7f7;
         /* margin: 8px; */
-        /* padding: 2px;
-            margin: 8px;
-            text-align: center;
-        } */
-        
-        .divClientesGrid {
-            display: grid;
-            grid-template-columns: 20% 20% 20% 20% 20%;
-            /* grid-template-rows: 200px 200px 200px; */
-        }
-        
-        .divClientesGrid img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin: 16px 16px;
-        }
-        
-        .sectionClientesFlex {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* width: 100%; */
-        }
-        /* display grid para entender como ordenar las cajas horizontalmente desde el padre */
-        /* .SUMlista {
+        padding: 5px 0px;
+        text-align: center;
+        grid-area: footer;
+    }
+    
+    .main {
+        grid-area: main;
+        margin: 0px 8px;
+    }
+    
+    .divClientesGrid {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        /* grid-template-rows: 200px 200px 200px; */
+    }
+    
+    .divClientesGrid img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 16px 16px;
+    }
+    
+    .sectionClientesFlex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%; */
+    }
+    /* display grid para entender como ordenar las cajas horizontalmente desde el padre */
+    /* .SUMlista {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 0px;
     justify-items: center;
 }
 */
-        /* display flex para entender como ordenar las cajas horizontalmente desde el padre */
-        
-        .SUMlista {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-        
-        .SUMcajitas {
-            border: 1px solid #083058;
-            border-radius: 128px;
-            padding: 32px 16px;
-            margin: 0px 16px;
-            text-align: center;
-        }
-        
-        .cabecera .logo {
-            color: white;
-            text-decoration: none;
-        }
-        
-        .tituloMediaQueries {
-            background-color: #053c72;
-        }
-        /* .QStituloIndex {
+    /* display flex para entender como ordenar las cajas horizontalmente desde el padre */
+    
+    .SUMlista {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .SUMcajitas {
+        border: 1px solid #083058;
+        border-radius: 128px;
+        padding: 32px 16px;
+        margin: 0px 16px;
+        text-align: center;
+    }
+    
+    .cabecera .logo {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .tituloMediaQueries {
+        background-color: #053c72;
+    }
+    /* .QStituloIndex {
             color: #8b9dc3;
             height: 100px;
             width: 100px;
             padding: 20px;
             color: rgb(164, 164, 184); */
-        /* display: flex;
+    /* display: flex;
         justify-content: left;
         align-content: space-between; */
-        /* } */
-        
-        .tituloClientes {
-            color: #8b9dc3;
-            background-color: #053c72;
+    /* } */
+    
+    .tituloClientes {
+        color: #8b9dc3;
+        background-color: #053c72;
+    }
+    
+    .tituloAsociate {
+        display: flex;
+        justify-content: center;
+        margin: 8px;
+        color: #e5e6eb;
+        height: auto;
+        width: auto;
+        background-color: #053c72;
+        border-radius: 70px;
+        background-image: linear-gradient(to bottom, #053c72, rgb(36, 36, 95));
+    }
+    
+    .gradiente {
+        border: solid 5px rgb(243, 243, 243);
+        border-radius: 70px;
+    }
+    
+    .formularioAsociate {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    @keyframes heartbeat {
+        0% {
+            transform: scale(o.75);
         }
-        
-        .tituloAsociate {
+        50% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(o.75%);
+        }
+    }
+    /* meida queries */
+    
+    @media (max-width:1000px) {
+        .bodyGrid {
+            flex-direction: column;
+        }
+        .tituloMediaQueries {
+            display: block;
+        }
+        .cabecera-nav {
+            display: none;
+        }
+        .QSspan {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .divClientesGrid {
+            display: flex;
+            flex-wrap: wrap;
+            /* margin: 0px 32px; */
+            justify-content: center;
+        }
+        .QStituloIndex {
+            display: flex;
+            justify-content: center;
+        }
+        .main {
+            margin: 8px 16px;
+            justify-content: center;
+        }
+        .tituloClientes {
+            display: flex;
+            justify-content: center;
+        }
+        .gradiente {
             display: flex;
             justify-content: center;
             margin: 8px;
+            padding: 16px;
             color: #e5e6eb;
             height: auto;
             width: auto;
@@ -227,76 +251,5 @@
             border-radius: 70px;
             background-image: linear-gradient(to bottom, #053c72, rgb(36, 36, 95));
         }
-        
-        .gradiente {
-            border: solid 5px rgb(243, 243, 243);
-            border-radius: 70px;
-        }
-        
-        .formularioAsociate {
-            display: grid;
-            grid-template-columns: 50% 50%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        
-        @keyframes heartbeat {
-            0% {
-                transform: scale(o.75);
-            }
-            50% {
-                transform: scale(1);
-            }
-            100% {
-                transform: scale(o.75%);
-            }
-        }
-        /* meida queries */
-        
-        @media (max-width:1000px) {
-            .bodyGrid {
-                flex-direction: column;
-            }
-            .tituloMediaQueries {
-                display: block;
-            }
-            .cabecera-nav {
-                display: none;
-            }
-            .QSspan {
-                display: flex;
-                flex-wrap: wrap;
-            }
-            .divClientesGrid {
-                display: flex;
-                flex-wrap: wrap;
-                /* margin: 0px 32px; */
-                justify-content: center;
-            }
-            .QStituloIndex {
-                display: flex;
-                justify-content: center;
-            }
-            .main {
-                margin: 8px 16px;
-                justify-content: center;
-            }
-            .tituloClientes {
-                display: flex;
-                justify-content: center;
-            }
-            .gradiente {
-                display: flex;
-                justify-content: center;
-                margin: 8px;
-                padding: 16px;
-                color: #e5e6eb;
-                height: auto;
-                width: auto;
-                background-color: #053c72;
-                border-radius: 70px;
-                background-image: linear-gradient(to bottom, #053c72, rgb(36, 36, 95));
-            }
-            /* .seccion1 {} */
-        }
+        /* .seccion1 {} */
+    }

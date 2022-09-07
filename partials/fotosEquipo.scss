@@ -1,0 +1,6 @@
+@import "./mixin.scss";
+@import "./extends.scss";
+.fotosEquipo {
+    @extend %fotosEquipo;
+    @include contenedorFotos;
+}
