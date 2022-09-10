@@ -1,13 +1,9 @@
 .fotosEquipo {
-  margin: 32px;
-  padding: 8px;
+  border: 0px solid;
   border-radius: 32px;
-  width: 200px;
-  height: 200px;
 }
 
 .fotosEquipo {
-  border: 1px solid;
-  border-radius: 32px;
-  background-color: grey;
+  width: 400px;
+  height: 400px;
 }/*# sourceMappingURL=fotosEquipo.css.map */

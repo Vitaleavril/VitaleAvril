@@ -1,47 +1,11 @@
-// .bodyGrid {
-//     display: grid;
-//     grid-template-columns: 1fr;
-//     grid-template-rows: 70px auto 32px;
-//     min-height: 100vh;
-//     grid-template-areas: "header" "main" "footer";
-//     .cabecera {
-//         background-color: #011f4b;
-//         color: #f7f7f7;
-//         padding: 10px;
-//         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-//         display: flex;
-//         justify-content: space-between;
-//         grid-area: header;
-//         .logo {
-//             color: white;
-//             text-decoration: none;
-//         }
-//         nav {
-//             list-style-type: none;
-//             background-color: #011f4b;
-//             padding: 15px;
-//             border-radius: 32px;
-//         }
-//         ul {
-//             color: #f0f7da;
-//             text-decoration: none;
-//             margin: 16px;
-//             padding: 8px 16px;
-//             text-transform: capitalize;
-//             background-color: #011f4b;
-//             border-radius: 32px;
-//             list-style-type: none;
-//         }
-//         li {
-//             color: #f0f7da;
-//             text-decoration: none;
-//             margin: 16px;
-//             padding: 8px 16px;
-//             text-transform: capitalize;
-//             background-color: #011f4b;
-//             border-radius: 32px;
-//             list-style-type: none;
-//             display: inline;
-//         }
-//     }
-// }
+.bodyGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px auto 32px;
+    min-height: 100vh;
+    grid-template-areas: "header" "main" "footer";
+}
+
+.cabecera {
+    grid-area: header;
+}

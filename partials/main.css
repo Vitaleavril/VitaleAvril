@@ -31,9 +31,4 @@
 .mainservicios .gradiente {
   border: solid 5px rgb(243, 243, 243);
   border-radius: 70px;
-}
-
-.mainEquipo {
-  display: flex;
-  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */

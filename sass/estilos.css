@@ -3,24 +3,26 @@
   margin: 0%;
 }
 
-.botonForm2, .botonForm1 {
-  padding: 8px;
-  border: 16px;
-  font-size: 8px;
+.bodyGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px auto 32px;
+  min-height: 100vh;
+  grid-template-areas: "header" "main" "footer";
+}
+
+.cabecera {
+  grid-area: header;
 }
 
 .fotosEquipo {
-  margin: 32px;
-  padding: 8px;
+  border: 0px solid;
   border-radius: 32px;
-  width: 200px;
-  height: 200px;
 }
 
 .fotosEquipo {
-  border: 1px solid;
-  border-radius: 32px;
-  background-color: grey;
+  width: 400px;
+  height: 400px;
 }
 
 .footer {
@@ -30,9 +32,6 @@
   padding: 5px 0px;
   text-align: center;
   grid-area: footer;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   font-weight: 700;
 }
 
@@ -69,11 +68,6 @@
 .mainservicios .gradiente {
   border: solid 5px rgb(243, 243, 243);
   border-radius: 70px;
-}
-
-.mainEquipo {
-  display: flex;
-  flex-direction: column;
 }
 
 @media (max-width: 1000px) {
@@ -151,40 +145,7 @@
   color: #0a0a09;
 }
 
-.botonForm2, .botonForm1 {
-  padding: 8px;
-  border: 16px;
-  font-size: 8px;
-}
-
 .fotosEquipo {
-  margin: 32px;
-  padding: 8px;
+  border: 0px solid;
   border-radius: 32px;
-  width: 200px;
-  height: 200px;
-}
-
-.botonForm2, .botonForm1 {
-  padding: 8px;
-  border: 16px;
-  font-size: 8px;
-}
-
-.fotosEquipo {
-  margin: 32px;
-  padding: 8px;
-  border-radius: 32px;
-  width: 200px;
-  height: 200px;
-}
-
-.botonForm1 {
-  background-color: green;
-  color: white;
-}
-
-.botonForm2 {
-  background-color: red;
-  color: white;
 }/*# sourceMappingURL=estilos.css.map */

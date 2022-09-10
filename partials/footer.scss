@@ -6,8 +6,5 @@
     padding: 5px 0px;
     text-align: center;
     grid-area: footer;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     font-weight: map-get($pesoFuente, negrita);
 }

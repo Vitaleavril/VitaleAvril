@@ -88,6 +88,10 @@
         display: block;
     } */
     
+    .cabecera1 {
+        grid-area: header;
+    }
+    
     .footer {
         background-color: #011f4b;
         color: #f7f7f7;
